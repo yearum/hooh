@@ -58,6 +58,18 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+  - lib/img/rian.png
+  - lib/img/screen.png
+  - lib/img/yuli.png
+  - lib/img/photo-sensor-2.png
+  - lib/img/player-play.png
+  - lib/img/bintang.png
+  - lib/img/chat.png
+  - lib/img/mariadi.jpeg
+  - lib/img/profile.png
+  - lib/img/home.png
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
