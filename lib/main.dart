@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:iyo/screens/HomeScreen.dart';
 import 'package:iyo/screens/Pemindai.dart';
+import 'package:iyo/screens/ProfilDokter.dart';
 import 'package:iyo/screens/profile.dart';
 
 void main() {
@@ -18,8 +19,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/screens/HomeScreen',
       routes: {
         '/screens/HomeScreen': (context) => HomeScreen(),
-        '/screens/Pemindai': (context) => Pemindai(),
+        '/screens/Pemindai': (context) => CameraScreen(),
         '/screens/Profile': (context) => Profile(),
+        '/screens/ProfilDokter': (context) => ProfilDokter(),
       },
     );
   }

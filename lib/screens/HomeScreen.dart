@@ -479,6 +479,7 @@ class DoctorInfoContainer extends StatelessWidget {
                     ElevatedButton.icon(
                       onPressed: () {
                         // Tambahkan logika
+                        Navigator.pushNamed(context, '/screens/ProfilDokter');
                       },
                       icon: Image.asset(
                         "lib/img/profile.png",
